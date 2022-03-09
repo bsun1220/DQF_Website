@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DQF Home Page</title>
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/home.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../media/DQF.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <nav class = "navbar">
+      <ul class = "logo">
+        <a href = "home.html">
+          <img id = "pic" src = "../media/DQF.jpg" href = "home.html"/>
+          </a>
+        <p id = "name"> Duke Quantitative Finance</p>
+      </ul>
+      <ul class = "navlist">
+        <li>
+          <a href = "about.html"> About </a>
+        </li>
+        <li>
+          <a href = "exec.html"> Executive Board </a>
+        </li>
+        <li>
+          <a href = "resources.html"> Resources </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class = "welcome">
+      <h1>
+        See the World <div id = "move"> Analytically</div>
+      </h1>
+    </div>
+
+    <div class = "basic">
+      <div class = "textbox-left">
+        <h1 class = "header">
+          Mission Statement
+        </h1>
+        <p class = "text">
+          DQF’s mission is to foster a tight-knit community of students and friends passionate about going into quantitative finance. We not only equip Duke undergraduates with the basics of financial mathematics, statistics, and finance but also provide a fun and lively environment. With our organization, we hope to put Duke University on the map for quant recruiting, from trading positions to quantitative research in countless firms. 
+        </p>
+      </div>
+      <div class = "textbox-right">
+        <h1 class = "header">
+          Background Information
+        </h1>
+        <p class = "text">
+          DQF was founded in November 2021 by 3 ambitious freshmen students. Since then, over 8 experienced senior quant interns working in places ranging from Jane Street to Optiver have joined forces in educating the Duke Community about quantitative finance. We also work with several of Duke’s academic faculty including Prof. Xavier Mela and Dr. David Ye.
+        </p>
+      </div>
+      <div class = "textbox-left">
+        <h1 class = "header">
+          Current Plans
+        </h1>
+        <p class = "text">
+          We had over 60 students attend our rush process! Of which, we accepted 30 students into our education bootcamp. Those who join our club get exclusive access towards competing at national-level trading competitions (from UChicago to UCBerkeley), participation in semester-long projects, and the interview preparatory sessions. 
+        </p>
+      </div>
+    </div>
+
+    <div class = "work">
+      <h1 class = "header" id = "title">Where We Work</h1>
+
+      <div class = "mySlides fade">
+        <div class = "numbertext">1/4</div>
+        <div class = "txt-bix">
+          <img class = "imge" src = "../media/logo-sig-sauer.svg">
+          <p>SIG is a privately held trading and technology firm, comprising a number of affiliated entities specialized in trading and proprietary investments in equities, fixed income, commodity, and private equity. They are a designated market maker in 600 equity options. </p>
+        </div>
+        <div class = "caption">Susquehanna International Group</div>
+      </div>
+      <div class = "mySlides fade">
+        <div class = "numbertext">2/4</div>
+        <div class = "txt-bix">
+          <img class = "imge" src = "../media/JaneStreet.png">
+          <p>Jane Street is a global proprietary trading firm with around 1,200 employees. The company is one of the world’s largest market makers, trading more than $17 million worth of securities in 2020. It is considered to have helped keep bond ETFs liquid during market turmoil in 2020.  </p>
+        </div>
+        <div class = "caption">Jane Street</div>
+      </div>
+      <div class = "mySlides fade">
+        <div class = "numbertext">3/4</div>
+        <div class = "txt-bix">
+          <img class = "imge" src = "../media/Optiver.png">
+          <p>Optiver is a proprietary trading firm and market-maker for various exchanged financial instruments. Optiver trades listed derivatives, cash equities, exchange-traded funds, bonds and foreign exchange.</p>
+        </div>
+        <div class = "caption">Optiver</div>
+      </div>
+      <div class = "mySlides fade">
+        <div class = "numbertext">4/4</div>
+        <div class = "txt-bix">
+          <img class = "imge" src = "../media/Akuna.png">
+          <p>Akuna Capital is an innovative trading firm with a strong focus on collaboration, cutting-edge technology, data driven solutions, and automation. They specialize in providing liquidity as an options market maker.</p>
+        </div>
+        <div class = "caption">Akuna Capital</div>
+      </div>
+
+      <a class = "prev" onclick = "plusSlides(-1)">&#10094;</a>
+      <a class= "next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+
+    <script src = "../js/slideshow.js"></script>
+
+
+  </body>
+</html>
