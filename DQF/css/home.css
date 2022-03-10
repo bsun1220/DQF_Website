@@ -2,7 +2,6 @@
 
   .welcome{
       background-image: url("../media/duke.jpg");
-      margin-top:4rem;
       display:flex;
       flex-direction:center;
       justify-content:center;
@@ -47,7 +46,7 @@
 }
 
 .textbox-right{
-    margin-right:20%;
+    margin-right:15%;
     margin-top:7px;
     margin-bottom:7px;
     display:flex;
@@ -62,6 +61,7 @@
     background-color:var(--navy);
     min-height:700px;
     width:100%;
+    margin-right:0;
     position:relative;
     margin-bottom:0;
 }
@@ -83,6 +83,7 @@
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+    
   }
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
@@ -91,7 +92,6 @@
   .caption{
     color: #f2f2f2;
     font-size: 15px;
-    padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
