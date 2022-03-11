@@ -1,0 +1,128 @@
+:root{
+  --navy:#012169;
+  --copper:#C84E00;
+  --magnolia:#1D6363;
+  --shale:#0577B1;
+  --gray:#E2E6ED;
+  --ebony:#282C34;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color:var(--shale);
+  font-size:10px;
+  margin:0;
+  padding:0;
+  margin-bottom:0;
+}
+
+.navbar{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  width:100%;
+  top:0;
+  left:0;
+  background:var(--gray);
+  border-bottom-style:solid;
+  border-bottom-color:var(--navy);
+}
+
+.logo{
+  color:var(--shale);
+  display:flex;
+  justify-content: center;
+  font-family: 'Verdana', sans-serif;
+  margin-left:1rem;
+  padding-left:1rem;
+  align-items: center;  
+  align-content: center;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+#name{
+  padding-left:0.8rem;
+  font-size:1.25rem;
+  font-family: 'Verdana', sans-serif;
+  font-weight:bold;
+}
+
+#pic{
+  height:2.5rem;
+  border-radius:50%;
+  border-style:solid;
+  border-color:var(--shale);
+  transition: .26s ease-out;
+}
+#pic:hover{
+  height:3.2rem;
+  transition: .26s ease-out;
+}
+
+.navlist{
+  display:flex;
+  justify-content: center;
+  align-items: center;  
+  margin-right:10px;
+  margin-top:0%;
+  margin-bottom:0%;
+}
+
+a{
+  text-decoration:none;
+}
+
+.navlist a{
+  display:block;
+  color:var(--shale);
+  font-size:1.2rem;
+  font-weight:lighter;
+  padding: 20px 30px;
+  margin-top: 0;
+  background: linear-gradient(to bottom, 
+var(--navy) 50%, var(--gray) 50%) right;
+  background-size:100% 200%;
+  background-position:bottom;
+  transition: .26s ease-out;
+}
+.navlist a:hover{
+  background-position:top;
+}
+
+.navbar li{
+  list-style-type:none;
+}
+
+.navbar ul{
+  list-style:none;
+}
+
+.header{
+  color:var(--navy);
+  font-size:2rem;
+  font-weight:bold;
+  font-family: 'Verdana', sans-serif;
+  margin-bottom:10px;
+}
+
+.text{
+  margin-top:0;
+  margin-bottom:5px;
+  color:var(--ebony);
+  font-size:1.1rem;
+  font-weight:inherit;
+  line-height: 1.5;
+}
+hr{
+  margin-top:0;
+}
+
+footer{
+  text-align:right;
+  margin-bottom:0;
+  margin-top:0;
+}
+footer p{
+  margin-right:15px;
+}
